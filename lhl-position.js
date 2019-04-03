@@ -29,7 +29,6 @@ function countLetters(phrase) {
 return letterCount;
 }
 console.log(countLetters("Lighthouse in the house"));
-console.log(countLetters("Here is a test phrase to try"));
 
 /* Expected outcome: 
 
@@ -43,15 +42,4 @@ console.log(countLetters("Here is a test phrase to try"));
   s: [ 8, 18 ],
   e: [ 9, 14, 19 ],
   n: [ 11 ] }
-{ H: [ 0 ],
-  e: [ 1, 3, 8, 16 ],
-  r: [ 2, 13, 20 ],
-  i: [ 4 ],
-  s: [ 5, 9, 15 ],
-  a: [ 6, 14 ],
-  t: [ 7, 10, 17, 19 ],
-  p: [ 11 ],
-  h: [ 12 ],
-  o: [ 18 ],
-  y: [ 21 ] }
 */
